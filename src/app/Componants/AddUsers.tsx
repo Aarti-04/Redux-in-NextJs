@@ -1,7 +1,8 @@
 "use client";
 import React, { useState } from "react";
-import { addUser } from "../reduxtoolkit/slice";
+// import { addUser } from "../reduxtoolkit/slice";
 import { useDispatch } from "react-redux";
+import { addUser } from "../reduxPersist/slice";
 const AddUsers = () => {
   const [name, setName] = useState("");
   const dispatch = useDispatch();

@@ -1,7 +1,8 @@
 "use client";
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { removeUser } from "../reduxtoolkit/slice";
+import { removeUser } from "../reduxPersist/slice";
+// import { removeUser } from "../reduxtoolkit/slice";
 
 const DisplayUsers = () => {
   const usersData = useSelector((state: any) => state.users);
